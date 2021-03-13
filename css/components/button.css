@@ -1,0 +1,43 @@
+/* Your button CSS file */
+.btn-medium{
+  color: #999999;
+  padding: 12px 25px;
+  border: 1px solid #999999;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.7;
+}
+
+.btn-medium:hover{
+  opacity: 1;
+}
+
+
+.btn-treehouse{
+  color:white;
+  font-weight: bold;
+  background-color: #6AD58B;
+  padding: 12px 24px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.btn-treehouse:hover{
+  background-color: #3ac162;
+}
+
+.btn-yours{
+  padding: 12px 24px;
+  color: white;
+  border-radius: 10px;
+  background-image: url('https://static6.depositphotos.com/1022806/624/i/600/depositphotos_6240153-stock-photo-stormy-ocean.jpg');
+  background-size: cover;
+  text-shadow: 3px 3px 5px black;
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+}
+
+.btn-yours:hover{
+  background-image: url('https://images.pexels.com/photos/125457/pexels-photo-125457.jpeg');
+  background-size: cover;
+}

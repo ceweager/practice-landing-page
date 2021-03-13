@@ -1,0 +1,74 @@
+/* Your card CSS file */
+.card-category{
+  background-size:cover;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+  color:white;
+  height: 250px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  text-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  margin: 25px;
+}
+
+/* product code */
+.card-product{
+  display:flex;
+  align-items:center;
+  background-color:white;
+  height:150px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.1);
+  margin: 25px;
+ }
+
+.square-image{
+  height:100%;
+  margin-right: 15px;
+}
+
+.card-product p, .card-product h2{
+  margin:0;
+}
+
+/* card trip code */
+
+.card-trip{
+  box-shadow: 0 0 6px rgba(0,0,0,0.2);
+  margin:25px;
+}
+
+.big-image{
+  object-fit:cover;
+  height: 250px;
+  width:100%;
+}
+
+.white-card-description{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+
+.white-card-description p, h2{
+  margin: 0 24px;
+}
+
+
+.circular-image{
+  border: 1px solid white;
+  height:60px;
+  border-radius:50%;
+}
+
+.price-box{
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+
+.price-box h2{
+  margin-top: 10px;
+  margin-bottom: 56px;
+}
